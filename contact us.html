@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+<title>contact Page</title>
+    
+<head>
+
+    <style>
+    .mySlides {display:none;}
+    </style>
+
+<style>
+    body {
+
+     
+      color: rgb(255, 255, 255);
+      height: 100%;
+      width: 100%;
+    }
+
+    .ct {
+      height: 95.8vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+
+    }
+    .center {
+      margin: auto;
+      width: 35%;
+      font-size: 45px;
+      padding-left: 15%;
+
+    }
+    .button {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  width: auto;
+}
+
+.button:hover {opacity: 1}
+  </style>
+
+ 
+  </style>
+
+
+
+</head>
+<body>
+
+    <script src="easy_background.js"></script>
+
+    <script>
+      easy_background("body",
+  
+        {
+          slide: ["img/1.jpg", "img/2.jpg", "img/3.jpg", "img/4.jpg", "img/5.jpg"],
+  
+          delay: [2000, 2000, 2000, 2000, 2000]
+        }
+  
+  
+      );
+    </script>
+
+
+
+</body>   
+
+<div class="center">
+    <div class="container-contact1">
+      
+            <img src="img/img-01.png" alt="IMG" >
+        
+        <form class="contact1-form validate-form">
+            <span class="contact1-form-title">
+                Get in touch
+            </span>
+
+            <div class="wrap-input1 validate-input" data-validate = "Name is required">
+                <input class="input1" type="text" name="name" placeholder="Name">
+                <span class="shadow-input1"></span>
+            </div>
+
+            <div class="wrap-input1 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+                <input class="input1" type="text" name="email" placeholder="Email">
+                <span class="shadow-input1"></span>
+            </div>
+
+            <div class="wrap-input1 validate-input" data-validate = "Subject is required">
+                <input class="input1" type="text" name="subject" placeholder="Subject">
+                <span class="shadow-input1"></span>
+            </div>
+
+            <div class="wrap-input1 validate-input" data-validate = "Message is required">
+                <textarea class="input1" name="message" placeholder="Message"></textarea>
+                <span class="shadow-input1"></span>
+            </div>
+
+           
+                    <span class="button">
+                        Send Email
+                    </span>
+                        
+        </form>
+    </div>
+
+
+
+</html>
